@@ -11,7 +11,7 @@ const colors = {
   },
 };
 
-const theme = extendTheme({ colors });
+const theme = extendTheme({ colors, styles: { global: { body: { bg: "#fff1e5" } } } });
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

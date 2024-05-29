@@ -2,7 +2,7 @@ import { Box, Container, Flex, Text, VStack } from "@chakra-ui/react";
 
 const Index = () => {
   return (
-    <Container maxW="container.xl" p={4}>
+    <Container maxW="container.xl" p={4} bg="#fff1e5">
       <Flex direction={{ base: "column", md: "row" }} justify="space-between">
         <Box flex="3" mr={{ md: 4 }}>
           <Box mb={4}>

@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <Box bg="gray.800" color="white" px={4} py={2} mt={10}>
+    <Box bg="#fff1e5" color="black" px={4} py={2} mt={10}>
       <Flex justify="center">
         <Link as={NavLink} to="/about" px={2} py={1} _hover={{ textDecoration: "none", bg: "gray.700" }}>
           About
